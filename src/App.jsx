@@ -1,10 +1,11 @@
-import './App.css'
+import Navbar from "./layouts/Navbar/Navbar"
+import './App.css';
 
 function App() {
 
   return (
     <>
-      <h1> This is my CV </h1>
+      <Navbar />
     </>
   )
 }
