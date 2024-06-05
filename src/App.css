@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    @apply bg-red-500
-} */
+
+/* Ensure the body content doesn't go under the navbar */
+body {
+    @apply pt-14
+}

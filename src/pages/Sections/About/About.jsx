@@ -1,5 +1,9 @@
+import './About.css'
+
 export const About = () => {
     return(
-        <h1>About</h1>
+        <section id="about">
+            <h1>About</h1>
+        </section>
     )
 }
