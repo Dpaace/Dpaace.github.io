@@ -1,0 +1,5 @@
+#landing {
+    @apply bg-red-500 h-[500px] max-w-5xl text-5xl
+}
+
+/* import './Landing.css' */
