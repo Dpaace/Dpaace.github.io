@@ -5,5 +5,5 @@
 
 /* Ensure the body content doesn't go under the navbar */
 body {
-    @apply pt-14
+    @apply pt-14 font-markazi
 }
