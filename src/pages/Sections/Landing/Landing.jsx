@@ -1,76 +1,46 @@
 import './Landing.css'
 import Profile from '../../../assets/Profile.png';
 
-export const Landing = () => {
-    const slider_image = [
-        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000", // Python
-        "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=10256&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=1043&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=10236&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=3753&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=13406&format=png&color=000000",
-        "https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000",
 
-    ]
+export const Landing = () => {
     return (
-        <section id="landing" className='bg-green-900 text-white h-lvh'>
-            <div className='relative max-w-screen-xl mx-auto pt-10 flex flex-row '>
-                <div className="relative w-3/5 flex flex-col">
-                    <div className="absolute top-28 z-40">
-                        <h1 className="text-[156px] font-bold leading-[140px]">Dipesh<br />Nepali</h1>
-                        <br />
-                        <br />
-                        <br />
-                        <p className="text-xl font-semibold">
+        <section id="landing" className='bg-black text-white h-dvh'>
+            <div className='h-full max-w-screen-xl mx-auto pt-10 flex flex-col md:flex-row'>
+                <div className="flex flex-col md:flex-row w-full">
+                    <div className="md:w-3/5 w-full top-28 z-40 flex flex-col justify-center items-center md:items-start">
+                        <h1 className="text-6xl md:text-[156px] font-bold leading-tight md:leading-[140px] text-center md:text-left">
+                            Dipesh
+                            <br />
+                            <span className='ml-0 md:ml-[88px]'>Nepali</span>
+                        </h1>
+                        <br className="hidden md:block" />
+                        <br className="hidden md:block" />
+                        <br className="hidden md:block" />
+                        <p className="text-lg md:text-xl font-semibold text-center md:text-left">
                             SOFTWARE<br />
                             <span className="relative">
                                 ENGINEER
-                                <span className="absolute left-0 top-6 w-8 h-1 bg-coral inline-block"></span>
+                                <span className="absolute left-1/2 md:left-0 top-6 w-8 h-1 bg-coral inline-block transform -translate-x-1/2 md:transform-none"></span>
                             </span>
                         </p>
                     </div>
-                    <div className='relative bg-pink-200 h-[488px] w-[408px] mt-10 rounded-t-[200px] ml-[360px] z-30'>
-                        <img src={Profile} alt="Profile" className='h-full w-full object-cover' />
-                    </div>
-                </div>
-                <div className='w-2/5 mt-20'>
-                    <div className='flex flex-row justify-end'>
-                        <p className="text-3xl font-semibold text-right">
-                            YEARS<br />
-                            EXPERIENCE
-                        </p>
-                        <span className='text-[86px] leading-[70px] font-bold'>01</span>
-                    </div>
-
-                    {/* <div className='bg-black bg-opacity-30 rounded-3xl h-28 mt-20 w-4/5 mx-auto overflow-hidden'>
-                        <div className='flex animate-scroll'>
-                            {slider_image.concat(slider_image).map((img, index) => (
-                                <img key={index} src={img} alt={`slider-img-${index}`} className='h-24 mx-2' />
-                            ))}
+                    <div className='md:w-2/5 w-full flex justify-center md:justify-end mt-10 md:mt-0'>
+                        <div className='bg-pink-200 h-[70vw] md:h-[90%] w-[70vw] md:w-[450px] rounded-t-[50vw] md:rounded-t-[300px] z-30'>
+                            <img src={Profile} alt="Profile" className='h-full w-full object-cover rounded-t-[50vw] md:rounded-t-[300px]' />
                         </div>
-                    </div> */}
-                    {/* <div className='bg-black bg-opacity-30 rounded-3xl h-28 mt-20 w-4/5 mx-auto overflow-hidden'> */}
-                    <div className='h-54 mt-20 w-11/12 mx-auto overflow-hidden'>
-                        <div className='flex animate-scroll'>
-                            {slider_image.concat(slider_image).map((img, index) => (
-                                <img key={index} src={img} alt={`slider-img-${index}`} className='h-24 mx-2' />
-                            ))}
-                        </div>
-                        
                     </div>
-                </div>
-            </div>
-            <div className='bg-black h-56 mt-2'>
-                <div className='max-w-screen-xl mx-auto grid'>
-                    Scroll Down
                 </div>
             </div>
         </section>
+
+
 
     )
 }
 
 
+{/* <div className='bg-black bg-opacity-90 h-56'>
+    <div className='max-w-screen-xl mx-auto grid'>
+        Scroll Down
+    </div>
+</div> */}

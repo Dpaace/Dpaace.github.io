@@ -21,8 +21,8 @@ export const Navbar = () => {
     return (
         <header className="bg-black fixed top-0 left-0 w-full z-50 p-2">
             <div className="max-w-screen-xl mx-auto flex justify-between items-center">
-                <nav className="flex justify-between items-center w-full">
-                    <a href="#landing" onClick={(e) => handleNavClick(e, 'landing')}><img src={Logo} className="h-20" alt='logo' /></a>
+                <nav className="flex justify-between items-center w-full ">
+                    <a href="#landing" onClick={(e) => handleNavClick(e, 'landing')}><img src={Logo} className="h-20 " alt='logo' /></a>
                     <div className="hidden md:flex gap-5">
                         <ul className="list-none flex gap-10 m-0 p-0">
                             <li className="text-white font-bold text-2xl">
@@ -47,8 +47,8 @@ export const Navbar = () => {
                 </nav>
             </div>
             {isMobileMenuOpen && (
-                <div className="md:hidden bg-black bg-opacity-30 fixed top-14 left-0 w-full z-1000 p-2">
-                    <ul className="list-none flex flex-col items-center gap-5 m-0 p-0">
+                <div className="md:hidden bg-black bg-opacity-95 fixed top-24 left-0 w-full z-50  p-2">
+                    <ul className="list-none flex flex-col items-end gap-5 m-0 p-0 pr-5">
                         <li className="text-white font-bold">
                             <a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About</a>
                         </li>
