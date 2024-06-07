@@ -1,4 +1,3 @@
-import './Landing.css'
 import Profile from '../../../assets/Profile.png';
 
 
@@ -25,7 +24,7 @@ export const Landing = () => {
                         </p>
                     </div>
                     <div className='md:w-2/5 w-full flex justify-center md:justify-end mt-10 md:mt-0'>
-                        <div className='bg-pink-200 h-[70vw] md:h-[90%] w-[70vw] md:w-[450px] rounded-t-[50vw] md:rounded-t-[300px] z-30'>
+                        <div className=' h-[70vw] md:h-[90%] w-[70vw] md:w-[450px] rounded-t-[50vw] md:rounded-t-[300px] z-30'>
                             <img src={Profile} alt="Profile" className='h-full w-full object-cover rounded-t-[50vw] md:rounded-t-[300px]' />
                         </div>
                     </div>

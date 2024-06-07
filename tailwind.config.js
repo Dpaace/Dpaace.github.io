@@ -8,9 +8,12 @@ export default {
     extend: {
       colors: {
         coral: '#FF7F50',
+        about: '#FFF2D7',
+        btnHover: '#EA906C',
+        skills: '#F9ED69',
       },
       fontFamily: {
-        'markazi': ['Markazi Text']
+        'markazi': ['Markazi Text'],
       },
       animation: {
         scroll: 'scroll 5s linear infinite',
