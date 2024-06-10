@@ -13,6 +13,7 @@ export default {
         skills: '#F9ED69',
         eduExp: '#F8C794',
         card: '#D9D9D9',
+        contact: '#FDC435',
       },
       fontFamily: {
         'markazi': ['Markazi Text'],
