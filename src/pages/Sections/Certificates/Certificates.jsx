@@ -6,8 +6,7 @@ export const Certificates = () => {
             <div className="max-w-screen-xl mx-auto h-full px-4">
                 <h1 className='text-coral text-3xl md:text-5xl font-bold'>Certificates</h1>
                 <h2 className='text-xl md:text-4xl mt-4'>My Learnings to showcase my expertise...</h2>
-
-                <div className="max-w-screen-xl bg-card h-[380px] md:h-[480px] rounded-3xl mt-4 overflow-x-scroll whitespace-nowrap">
+                <div className="max-w-screen-xl bg-card h-[380px] md:h-[480px] rounded-t-3xl mt-4">
                     <CertificateCard />
                 </div>
             </div>
