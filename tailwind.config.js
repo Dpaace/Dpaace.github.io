@@ -12,6 +12,7 @@ export default {
         btnHover: '#EA906C',
         skills: '#F9ED69',
         eduExp: '#F8C794',
+        card: '#D9D9D9',
       },
       fontFamily: {
         'markazi': ['Markazi Text'],
