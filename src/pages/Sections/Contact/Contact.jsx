@@ -71,7 +71,7 @@ export const Contact = () => {
         console.log("Submitting form data:", formData);
 
         // eslint-disable-next-line no-unused-vars
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxpuBHLexLK_1XfQ5pti07NzSybgWU483RLbMoU6goFE4lJXz-R9wPQVL413fnfsjVuUg/exec', {
+        const response = await fetch(import.meta.env.VITE_API_URL, {
             mode: 'no-cors',
             method: 'POST',
             headers: {
