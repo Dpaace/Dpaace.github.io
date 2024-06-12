@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Dpaace.github.io">
+    <BrowserRouter basename="/dipeshnepali">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
