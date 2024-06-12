@@ -70,6 +70,7 @@ export const Contact = () => {
         e.preventDefault();
         console.log("Submitting form data:", formData);
 
+        // const response = await fetch(import.meta.env.VITE_API_URL, {
         // eslint-disable-next-line no-unused-vars
         const response = await fetch(import.meta.env.VITE_API_URL, {
             mode: 'no-cors',
